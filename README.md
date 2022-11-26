@@ -1,14 +1,18 @@
-# Dindin
+# Projeto dindin
 
-Pasta para o projeto dindin. Fazendo a lição da auladia 23/11 com essa pasta do projeto.
+Pasta para o projeto dindin. <br/>
+Header feito <br />
+Footer feito<br/>
+Conteúdo do index produzido, falta configurar no css
 
-![Aprendendo como anexar foto](print1.jpg "Print da pasta")
+
+![Aprendendo como anexar foto](header.png "Print da pasta")
 
 ## Acesso
-Para acessar o projeto, utilize a url abaixo:
-[link google](http://google.com)
+Para acessar o projeto, utilize a url a seguir:
+[Projeto dindin - Grupo 1](https://github.com/Alexandrespin/DesafioDindin.git)
 
-![html 5](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg)
+<!-- ![html 5](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg) -->
 
 <div>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" max width="15%"/>
