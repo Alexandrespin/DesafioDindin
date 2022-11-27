@@ -3,10 +3,12 @@
 Pasta para o projeto dindin. <br/>
 Header feito <br />
 Footer feito<br/>
-Conteúdo do index produzido, falta configurar no css
+Conteúdo do index produzido, falta configurar no css  <br />
+<br />
+Página contato criado e feito o css.
 
 
-![Aprendendo como anexar foto](header.png "Print da pasta")
+![Aprendendo como anexar foto](contato.png "Print da pasta")
 
 ## Acesso
 Para acessar o projeto, utilize a url a seguir:

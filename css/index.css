@@ -38,6 +38,69 @@ header nav a {
     text-transform: uppercase;
 }
 
+#contato {
+    display:flex;
+    justify-content: space-between;
+    margin: 82px 100px 90px 120px;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    
+}
+
+#contato form h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FF4081;
+    margin-bottom: 40px;
+}
+
+#contato form input,
+#contato form textarea {
+    margin-bottom: 15px;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #58555D;
+    padding: 5px 20px;
+}
+
+#contato form textarea {
+    padding-top: 10px;
+    padding-left: 21px;
+    padding-bottom: 15px;
+    height: 193px;
+}
+
+#contato form input::placeholder,
+#contato form textarea::placeholder {
+  color: #58555D;
+}
+
+/* #contato form input:focus,
+#contato form textarea:focus {
+  outline: none;
+} */
+
+#contato form button {
+    background: #FF4081;
+    border-radius: 50px;
+    width: 108px;
+    height: 36px;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 16px;
+    padding: 5px 7px;
+    align-content: center;
+    cursor: pointer;
+    border: none;
+
+}
+
 footer {
     background: #419488;
     display:flex;
