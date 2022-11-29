@@ -1,165 +1,7 @@
-* {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    font-size: 100%;
-    box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
-a {
-    text-decoration: none;
-}
-
-header {
-    display:flex;
-    background: #2E948A;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-    justify-content: space-between;
-    padding: 15px;
-    align-items: center;
-}
-
-header img {
-    margin-left: 85px;
-}
-
-header nav {
-    margin-right: 103px;
-    padding: 18px;
-}
-
-header nav a {
-    font-weight: 700;
-    font-size: 20px;
-    color:#fff;
-    padding:18px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-#contato {
-    display:flex;
-    justify-content: space-between;
-    margin: 82px 100px 90px 120px;
-}
-
-#contato form {
-    display: flex;
-    flex-direction: column;
-    width: 490px;
-    
-}
-
-#contato form h2 {
-    font-size: 40px;
-    font-weight: 700;
-    color: #FF4081;
-    margin-bottom: 40px;
-}
-
-#contato form input,
-#contato form textarea {
-    margin-bottom: 15px;
-    border: 1px solid #686868;
-    border-radius: 7px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #58555D;
-    padding: 5px 20px;
-}
-
-#contato form textarea {
-    padding-top: 10px;
-    padding-left: 21px;
-    padding-bottom: 15px;
-    height: 193px;
-}
-
-#contato form input::placeholder,
-#contato form textarea::placeholder {
-  color: #58555D;
-}
-
-/* #contato form input:focus,
-#contato form textarea:focus {
-  outline: none;
-} */
-
-#contato form button {
-    background: #FF4081;
-    border-radius: 50px;
-    width: 108px;
-    height: 36px;
-    color: #FFFFFF;
-    font-weight: 800;
-    font-size: 16px;
-    padding: 5px 7px;
-    align-content: center;
-    cursor: pointer;
-    border: none;
-
-}
-
-footer {
-    background: #419488;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 35px;
-}
-
-footer img {
-    margin-left: 90px;
-}
-
-footer nav {
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    font-size: 20px;
-    font-weight: 400;
-}
-
-footer #navegacao a {
-    /* text-align: start; */
-    color:#fff;
-    justify-content: center;
-    text-decoration: none;
-    margin:2px;
-}
-
-footer #linksuteis a {
-    color:#fff;
-    margin-right: 180px;
-    width: 290px;
-    /* justify-content: flex-end; */
-    text-align: center;
-    border: 2px solid #fff;
-    padding: 8px 40px;
-    border-radius: 62px;
-    margin: 7px;
-}
-
 #banner {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    background-color: #fff;
-
 }
 
 #banner div {
@@ -213,8 +55,6 @@ footer #linksuteis a {
     text-align: center;
     /* justify-content: space-between; */
     padding: 100px;
-    width: 1200px;
-    height: 700px;
     /* display: flex; */
     /* flex-direction: row; */
     /* display: flex;
@@ -260,19 +100,11 @@ footer #linksuteis a {
 }
 
 #feedbacks {
-    /* margin: 119px 120px 150px 128px;
+    margin: 119px 120px 150px 128px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 1100px; */
     /* max-height: 200px; */
-    height: 900px;
-    width: 1200px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 25px;
-    align-items: center;
-    justify-items: center;
     
 }
 
@@ -281,39 +113,19 @@ footer #linksuteis a {
     font-weight: 700;
     font-size: 37px;
     margin-bottom: 90px;
-    
 }
 
-#feedbacks div {
-    max-width: 1100px;
-    max-height: 450px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#feedbacks div article {
-    max-width: 495px;
+#feedbacks article {
     display: flex;
     flex-direction: row;
     /* flex-wrap: wrap; */
-    padding-right: 50px;
-    margin-bottom: 40px;
+    padding: 10px;
+    align-items: center;
 }
 
 #feedbacks p {
     width: 363px;
     font-weight: 300;
-    font-size: 18px;
-    color: #000;
-    margin-left: 30px;
-}
-
-#feedbacks .names {
-    width: 363px;
-    font-weight: 500;
     font-size: 18px;
     color: #000;
     margin-left: 30px;
@@ -375,4 +187,3 @@ footer #linksuteis a {
     margin-top: 101px;
     margin-bottom: 50px;
 }
-
