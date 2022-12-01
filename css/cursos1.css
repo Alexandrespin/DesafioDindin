@@ -78,145 +78,103 @@ footer #linksuteis a {
     margin: 7px;
 }
 
+#cursos {
+    display:flex;
+    flex-direction: column;
+    padding-top: 81px;
+    padding-left: 81px;
+}
+
 #cursos h1 {
-    position: absolute;
-    width: 260px;
-    height: 70px;
-    left: 80px;
-    top: 200px;
     font-weight: 700;
     color: #FF4081;
     font-size: 60px;
+    padding-left: 100px;
 }
 
 #cursos p {
-    position: absolute;
-    width: 315px;
-    height: 25px;
-    left: 80px;
-    top: 265px;
     font-weight: 400;
     font-size: 20px;
     color: #555555;
-    white-space: nowrap;
+    padding-left: 100px;
+    /* white-space: nowrap; */
 }
 
-article {
+#listadecursos {
     display: flex;
-    justify-content: space-between;
-}
-
-#investimentos {
-    margin-top: 300px;
-    margin-left: 112px;
-    margin-bottom: 70px;
-}
-
-#investimentos h2 {
-    position: absolute;
-    width: 510px;
-    height: 40px;
-    left: 545px;
-    top: 400x;
-    font-weight: 700;
-    font-size: 35px;
-    color: #FF4081;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 95 98 202 82px;
     
 }
 
-#investimentos p {
-    position: absolute;
-    width: 725px;
-    height: 105px;
-    left: 545px;
-    top: 470px;
+#listadecursos div {
+    max-width: 1400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    padding: 15px;
+
 }
 
-#investimentos button {
-    position: absolute;
-    width: 235px;
-    height: 50px;
-    left: 545px;
-    top: 570px;
-    background: #419488;
-    border-radius: 62px;
-    color: #fff;
-    text-decoration: none;
-}
-
-#investimentos button a {
-    color:#fff;
-    text-decoration: none;
+#listadecursos div article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    
 }
 
 #poupando {
-    margin-left: 112px;
-    margin-bottom: 70px;
-}
-
-#poupando h2 {
-    position: absolute;
-    width: 375px;
-    height: 40px;
-    left: 545px;
-    top: 850px;
-    font-weight: 700;
-    font-size: 35px;
-    color: #FF4081;
+    /* box-sizing: border-box; */
+    border-top: 5px solid #C4C4C4;
+    border-bottom: 5px solid #C4C4C4;
+    display: flex;
+    align-content: center;
+    /* margin-left: 100px; */
     
 }
 
-#poupando p {
-    position: absolute;
-    width: 725px;
-    height: 105px;
-    left: 545px;
-    top: 920px;
+#listadecursos div article div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* max-height: 390px; */
+    max-width: 830px;
+    padding-left: 40px;
 }
 
-#poupando button {
-    position: absolute;
-    width: 235px;
-    height: 50px;
-    left: 545px;
-    top: 1020px;
-    background: #419488;
-    border-radius: 62px;
-    color: #fff;
-}
-
-#iniciantes {
-    margin-left: 112px;
-    margin-bottom: 70px;
-}
-
-#iniciantes h2 {
-    position: absolute;
-    width: 425px;
-    height: 40px;
-    left: 545px;
-    top: 1350px;
-    font-weight: 700;
+#listadecursos div article div h2 {
     font-size: 35px;
+    font-weight: 700;
     color: #FF4081;
-    white-space: nowrap;
+    padding-bottom: 37px;
 }
 
-#iniciantes p {
-    position: absolute;
-    width: 725px;
-    height: 105px;
-    left: 545px;
-    top: 1420px;
+#listadecursos div article div p {
+    font-size: 18px;
+    font-weight: 300px;
+    color: #000;
+    padding-bottom: 50px;
 }
 
-#iniciantes button {
-    position: absolute;
-    width: 235px;
-    height: 50px;
-    left: 545px;
-    top: 1520px;
-    background: #419488;
-    border-radius: 62px;
+#listadecursos div article div button {
+    font-size: 20px;
+    font-weight: 400px;
     color: #fff;
+    background-color: #419488;
+    border-radius: 62px;
+    padding: 12px 12px;
+    max-width: 233px;
+
+}
+
+#listadecursos div article div a {
+    color: #fff;
+    text-decoration: none;
 }
