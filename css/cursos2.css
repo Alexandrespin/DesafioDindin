@@ -78,6 +78,15 @@ footer #linksuteis a {
     margin: 7px;
 }
 
+.cursos1 {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
 #investimentos {
     display: flex;
     justify-content: space-between;
@@ -109,6 +118,7 @@ footer #linksuteis a {
     position: absolute;
     left: 700px;
     top: 200px;
+    margin-left: 90px;
     
 }
 
@@ -149,6 +159,7 @@ footer #linksuteis a {
     height: 260px;
     left: 215px;
     top: 1145px;
+    
 }
 
 #aula2 h2 {
