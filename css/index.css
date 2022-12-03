@@ -284,9 +284,9 @@ footer #linksuteis a {
 #feedbacks {
     display: flex;
     flex-direction: column;
-    align-content: center;
     align-items: center;
-    padding-left: 128px;
+    align-content: center;
+    /* padding-left: 128px; */
     margin-bottom: 150px;
     padding: 20px;
     
@@ -297,16 +297,18 @@ footer #linksuteis a {
     font-weight: 700;
     font-size: 37px;
     margin-bottom: 90px;
+    /* padding-left: 128px; */
 }
 
 #feedbacks div {
-    max-width: 1100px;
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-content: space-between;
+    
 }
 
 #feedbacks div article {
@@ -316,6 +318,7 @@ footer #linksuteis a {
     /* flex-wrap: wrap; */
     padding-right: 50px;
     margin-bottom: 40px;
+    /* padding-left: 128px; */
 }
 
 #feedbacks p {
@@ -410,3 +413,15 @@ footer #linksuteis a {
     margin-top: 101px;
 }
 
+@media only screen and (max-width: 768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
